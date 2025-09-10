@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bunga Semangat untuk Dayu Sindy 🌸</title>
+  <style>
+    :root{
+      --bg:#FFF7FB;
+      --petal:#FF8FB1;
+      --petal2:#FFD1E6;
+      --center:#FFD166;
+      --stem:#6CBF73;
+      --leaf:#3FA76A;
+      --text:#4A3F35;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+      background:linear-gradient(180deg,var(--bg),#FFF1F6);
+      display:flex;align-items:center;justify-content:center}
+    .card{
+      width:880px;max-width:95%;
+      background:rgba(255,255,255,0.8);
+      border-radius:20px;
+      box-shadow:0 12px 30px rgba(72,63,58,0.12);
+      padding:28px;display:flex;gap:24px;align-items:center}
+
+    .flower-wrap{width:420px;flex:0 0 420px;display:flex;align-items:center;justify-content:center;position:relative}
+    svg{width:320px;height:320px;overflow:visible}
+
+    .meta{flex:1;min-width:220px}
+    h1{margin:0;font-size:28px;color:var(--text)}
+    p{margin:8px 0 18px;color:#6b5549}
+
+    .btns{display:flex;gap:8px}
+    .btn{padding:8px 14px;border-radius:12px;border:none;background:#FFB3CC;color:#4A2F3B;font-weight:600;cursor:pointer;box-shadow:0 6px 14px rgba(255,141,177,0.18)}
+    .btn.ghost{background:transparent;border:1px solid rgba(74,47,57,0.08);box-shadow:none}
+
+    .petal{transform-origin:160px 160px}
+    @keyframes sway {
+      0%{transform:rotate(0deg)}
+      50%{transform:rotate(6deg)}
+      100%{transform:rotate(0deg)}
+    }
+    @keyframes breathe {
+      0%{transform:scale(1)}
+      50%{transform:scale(1.06)}
+      100%{transform:scale(1)}
+    }
+    .petal-1{animation: sway 3.8s ease-in-out infinite}
+    .petal-2{animation: sway 4.2s ease-in-out infinite reverse}
+    .petal-3{animation: sway 3.6s ease-in-out infinite}
+    .petal-4{animation: sway 4.5s ease-in-out infinite reverse}
+    .center{animation: breathe 4s ease-in-out infinite}
+    .stem{transform-origin:160px 340px;animation: sway 5s ease-in-out infinite}
+
+    .sparkles{position:absolute;pointer-events:none}
+    .heart{position:absolute;opacity:0.95;font-size:18px;transform:translateY(0);animation: floatUp 3s linear infinite}
+    @keyframes floatUp{
+      0%{transform:translateY(0) scale(0.9);opacity:0}
+      10%{opacity:1}
+      70%{transform:translateY(-120px) scale(1.15);opacity:0.9}
+      100%{transform:translateY(-200px) scale(0.9);opacity:0}
+    }
+
+    @media (max-width:720px){
+      .card{flex-direction:column;gap:16px;padding:18px}
+      .flower-wrap{width:100%}
+    }
+  </style>
+</head>
+<body>
+  <div class="card" role="main" aria-label="Kartu bunga semangat untuk Dayu Sindy">
+    <div class="flower-wrap">
+      <!-- SVG bunga -->
+      <svg viewBox="0 0 320 360" xmlns="http://www.w3.org/2000/svg">
+        <g class="stem">
+          <rect x="155" y="170" width="10" height="160" rx="6" fill="var(--stem)" />
+          <path d="M170 230 C210 220 220 260 180 270 C190 250 160 240 170 230z" fill="var(--leaf)" opacity="0.95" />
+        </g>
+        <g class="petal petal-1"><ellipse cx="160" cy="90" rx="34" ry="58" fill="var(--petal)" transform="rotate(0 160 160)" /></g>
+        <g class="petal petal-2"><ellipse cx="160" cy="90" rx="34" ry="58" fill="var(--petal2)" transform="rotate(60 160 160)" /></g>
+        <g class="petal petal-3"><ellipse cx="160" cy="90" rx="34" ry="58" fill="var(--petal)" transform="rotate(120 160 160)" /></g>
+        <g class="petal petal-4"><ellipse cx="160" cy="90" rx="34" ry="58" fill="var(--petal2)" transform="rotate(180 160 160)" /></g>
+        <g class="petal petal-1"><ellipse cx="160" cy="90" rx="34" ry="58" fill="var(--petal)" transform="rotate(240 160 160)" /></g>
+        <g class="petal petal-2"><ellipse cx="160" cy="90" rx="34" ry="58" fill="var(--petal2)" transform="rotate(300 160 160)" /></g>
+        <g class="center">
+          <circle cx="160" cy="160" r="34" fill="var(--center)" />
+          <circle cx="150" cy="155" r="4" fill="#6B3A2A" />
+          <circle cx="170" cy="155" r="4" fill="#6B3A2A" />
+          <path d="M148 168 Q160 178 172 168" stroke="#6B3A2A" stroke-width="2" fill="transparent" stroke-linecap="round" stroke-linejoin="round" />
+          <ellipse cx="142" cy="165" rx="6" ry="3.2" fill="#FFB6C1" opacity="0.9" />
+          <ellipse cx="178" cy="165" rx="6" ry="3.2" fill="#FFB6C1" opacity="0.9" />
+        </g>
+        <ellipse cx="160" cy="340" rx="120" ry="12" fill="rgba(100,150,100,0.08)" />
+      </svg>
+      <div class="sparkles" style="width:320px;height:320px;position:absolute;left:28px;top:20px;pointer-events:none">
+        <div class="heart" style="left:40px;bottom:40px;animation-delay:0s">💖</div>
+        <div class="heart" style="left:80px;bottom:20px;animation-delay:0.6s;font-size:20px">🌸</div>
+        <div class="heart" style="left:220px;bottom:10px;animation-delay:1.2s;font-size:16px">✨</div>
+      </div>
+    </div>
+
+    <div class="meta">
+      <h1>Semangat Hari Ini, Dayu Sindy! 🌼</h1>
+      <p>Hai Sindy! Semoga bunga ini bisa bikin kamu tersenyum.  
+      Apa pun yang kamu hadapi hari ini, ingat: kamu kuat, hebat, dan penuh cahaya.  
+      Semangat terus ya — harimu pasti indah! 💕</p>
+      <div class="btns">
+        <button class="btn" id="surpriseBtn">Sentuh aku!</button>
+        <button class="btn ghost" id="downloadBtn">Simpan gambar</button>
+      </div>
+      <p style="font-size:13px;margin-top:12px;color:#7b665d">Klik "Sentuh aku" biar bunganya makin hidup + musik semangat mulai jalan 🎶</p>
+    </div>
+  </div>
+
+  <!-- iframe musik (YouTube embed, autoplay ketika tombol diklik) -->
+  <iframe id="musicFrame" width="0" height="0" style="display:none"
+    src=""
+    frameborder="0"
+    allow="autoplay; encrypted-media"></iframe>
+
+  <script>
+    const surpriseBtn = document.getElementById('surpriseBtn');
+    const downloadBtn = document.getElementById('downloadBtn');
+    const musicFrame = document.getElementById('musicFrame');
+    let musicPlayed = false;
+
+    surpriseBtn.addEventListener('click', ()=>{
+      document.querySelectorAll('.petal').forEach((p)=>{
+        p.style.transition='transform 220ms ease';
+        p.style.transform = 'scale(1.08) rotate('+(Math.random()*20-10)+'deg)';
+        setTimeout(()=>{p.style.transform='';},600);
+      });
+      const h = document.querySelector('h1');
+      const old = h.textContent;
+      h.textContent = 'Aku bangga sama kamu, Sindy! 🌷';
+      setTimeout(()=>{h.textContent = old},2000);
+
+      // Musik mulai ketika tombol diklik
+      if(!musicPlayed){
+        musicFrame.src = "https://www.youtube.com/embed/E7XkLEEYZnE?autoplay=1&mute=0";
+        musicPlayed = true;
+      }
+    });
+
+    downloadBtn.addEventListener('click', ()=>{
+      const svg = document.querySelector('svg');
+      const serializer = new XMLSerializer();
+      const source = serializer.serializeToString(svg);
+      const svgBlob = new Blob([source], {type: 'image/svg+xml;charset=utf-8'});
+      const url = URL.createObjectURL(svgBlob);
+      const img = new Image();
+      img.onload = function(){
+        const canvas = document.createElement('canvas');
+        canvas.width = svg.clientWidth * 2;
+        canvas.height = svg.clientHeight * 2;
+        const ctx = canvas.getContext('2d');
+        ctx.drawImage(img,0,0,canvas.width,canvas.height);
+        URL.revokeObjectURL(url);
+        const a = document.createElement('a');
+        a.download = 'bunga_semangat_dayu_sindy.png';
+        a.href = canvas.toDataURL('image/png');
+        a.click();
+      }
+      img.src = url;
+    });
+  </script>
+</body>
+</html>
